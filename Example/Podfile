@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MovieApi_Example' do
+  pod 'MovieApi', :path => '../'
+
+  target 'MovieApi_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
