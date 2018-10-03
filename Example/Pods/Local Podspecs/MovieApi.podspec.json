@@ -1,0 +1,27 @@
+{
+  "name": "MovieApi",
+  "version": "0.1.0",
+  "summary": "A practice pod for making a network layer.",
+  "description": "A practice pod for creating a network layer pod.",
+  "homepage": "https://github.com/criboldi/MovieApi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "criboldi": "christian.m.riboldi@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/criboldi/MovieApi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "MovieApi/Classes/**/*",
+  "dependencies": {
+    "SWXMLHash": [
+      "~> 4.0.0"
+    ]
+  }
+}

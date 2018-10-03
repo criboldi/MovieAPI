@@ -22,7 +22,7 @@ pod 'MovieApi'
 
 ## Author
 
-criboldi, christian.m.riboldi@exxonmobil.com
+Christian Riboldi, christian.m.riboldi@hotmail.com
 
 ## License
 

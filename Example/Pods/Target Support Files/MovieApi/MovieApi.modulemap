@@ -1,0 +1,6 @@
+framework module MovieApi {
+  umbrella header "MovieApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

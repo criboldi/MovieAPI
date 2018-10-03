@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MovieApi'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MovieApi.'
+  s.summary          = 'A practice pod for making a network layer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A practice pod for creating a network layer pod.
                        DESC
 
   s.homepage         = 'https://github.com/criboldi/MovieApi'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'criboldi' => 'christian.m.riboldi@exxonmobil.com' }
+  s.author           = { 'criboldi' => 'christian.m.riboldi@hotmail.com' }
   s.source           = { :git => 'https://github.com/criboldi/MovieApi.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'MovieApi/Classes/**/*'
   
+  s.dependency 'SWXMLHash', '~> 4.0.0'
   # s.resource_bundles = {
   #   'MovieApi' => ['MovieApi/Assets/*.png']
   # }
